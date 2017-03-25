@@ -1,14 +1,21 @@
-# ML Breast Cancer C++
-Quick Implementation of a slightly augmented Adaline Model to predict whether tumor is malignant (-1) or benign(1)
+# Augmented Adaline Model
 
+### What is this project all about
+This is a simple project that my team made to present at the Student Computer Conference at NOISIS, thessaloniki, Greece. This project is an implementation of the Adaline model in C++ but with a twist! Instead of using a linear activation function we are using the Hyperbolic tangent to show that in doing so the model converges faster. Not only that but also the derivative of the hyperbolic tangent is replaced by the equation 1 - x^2 to enhance not only computation speed but also performance since it seems like the model converges in much less epochs.
 
-This is a very simple implementation of an ADAline model where I have added hyperbolic tangent as an activation function so that I
-can get somewhat decent results. The Model, although simple, manages to get around 87% accuracy on the training dataset. 
+### The Code
+The code is all written in C++. The folder named source contains our model while the folder named original contains the classic Adaline model. There one more fodler named Paper which contains the paper pdf of the project(It is also written in greek).
 
-This project was mostly an experimentation and isn't meant for production.
+To compile the project you will need to open the terminal/command Line and go into the source folder. Then you can either run the demo.exe or compile the files with:
 
-I hope that you will find it helpful and educational.
+```cpp
+  g++ Adaline.h datasets.h MachineLearning.cpp -o (The name of the excecutable)
+```
 
-Panagiotis Petridis, 
+### Results
+Our results were slightly above average at with an average accuracy of 95%.
 
-High School Student, Greece.
+Odyssey Sapoznikov & Panagiotis Petridis, High School Students,
+Greece
+
+If you have an opening in your team be sure to send an email!
