@@ -17,5 +17,3 @@ Our results were slightly above average at with an average accuracy of 95%.
 
 Odyssey Sapoznikov & Panagiotis Petridis, High School Students,
 Greece
-
-If you have an opening in your team be sure to send an email!
