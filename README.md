@@ -1,7 +1,7 @@
 # Augmented Adaline Model
 
 ### What is this project all about
-This is a simple project that my team made to present at the Student Computer Conference at NOISIS, thessaloniki, Greece. This project is an implementation of the Adaline model in C++ but with a twist! Instead of using a linear activation function we are using the Hyperbolic tangent to show that in doing so the model converges faster. Not only that but also the derivative of the hyperbolic tangent is replaced by the equation 1 - x^2 to enhance not only computation speed but also performance since it seems like the model converges in much less epochs.
+This is a simple project that my team made to present at the Student Computer Conference at NOESIS, thessaloniki, Greece. This project is an implementation of the Adaline model in C++ but with a twist! Instead of using a linear activation function we are using the Hyperbolic tangent to show that in doing so the model converges faster. Not only that but also the derivative of the hyperbolic tangent is replaced by the equation 1 - x^2 to enhance not only computation speed but also performance since it seems like the model converges in much less epochs.
 
 ### The Code
 The code is all written in C++. The folder named source contains our model while the folder named original contains the classic Adaline model. There one more fodler named Paper which contains the paper pdf of the project(It is also written in greek).
