@@ -13,7 +13,7 @@ To compile the project you will need to open the terminal/command Line and go in
 ```
 
 ### Results
-Our results were slightly above average at with an average accuracy of 95%.
+Our results were slightly above average with an average accuracy of 95%.
 
 Odyssey Sapoznikov & Panagiotis Petridis, High School Students,
 Greece
